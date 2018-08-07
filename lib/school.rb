@@ -18,11 +18,9 @@ class School
   end
   
   def sort
-    roster.collect {|grade, students| grade students.sort}
-    
-    
+    roster.collect do |grade, students_array| 
+      students_array.sort!
+    end
+    roster
   end
-  
-  
-  
 end
