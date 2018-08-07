@@ -6,6 +6,13 @@ class School
     @name = name
   end
   
+  def name=(name)
+    @name = name
+  end 
+  
+  def name
+    self.name
+  end
   
   def add_student(name, grade)
     if @roster[grade] == nil 
