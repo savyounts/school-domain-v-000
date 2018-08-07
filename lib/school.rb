@@ -18,8 +18,8 @@ class School
   end
   
   def sort
-    roster.values.sort
-    roster
+    roster.collect {|grade, students| students.sort}
+    
   end
   
   
