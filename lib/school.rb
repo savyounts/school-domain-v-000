@@ -1,11 +1,11 @@
 class School
+  
+  
   def initialize(name)
-    
-      @roster = {}
-    
-    
+    @roster = {}
     @name = name
   end
+  
   
   def add_student(name, grade)
     if @roster[grade] == nil 
