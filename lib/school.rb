@@ -1,8 +1,8 @@
 class School
   def initialize(name)
-    def roster
+    
       @roster = {}
-    end
+    
     
     @name = name
   end
